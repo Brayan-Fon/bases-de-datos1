@@ -1,8 +1,8 @@
-#Crear bases de datos
+# Crear bases de datos
 Create database Trabajo1
-#Usar base de datos
+# Usar base de datos
 use trabajo1;
-#Crear tabla
+# Crear tabla
 create table tienda1(
     -> id int,
     -> Producto varchar(30),
@@ -10,7 +10,7 @@ create table tienda1(
     -> Camtidad INT,
     -> Descripcion Varchar(50));
     
-#Insertar valores
+# Insertar valores
 INSERT INTO tienda1 VALUES ('1','pan','500','5','Pan de trigo');
 
 INSERT INTO tienda1 VALUES ('2','huevo','600','8','huevos criollos');
